@@ -4,13 +4,14 @@ Vagrantfile with my personal customized setting
 
 ## Settings
 
-bridged network with ip `192.168.0.121`
+bridged network with static ip
 
 installed softwares:
 
 - docker
 - docker-compose
 - tmux
+- net-tools libpq-dev python3-dev
 - miniconda
 
 version:
@@ -25,6 +26,8 @@ docker-compose version 1.24.1, build 4667896b
 ## How to use
 
 Install [Vagrant](https://www.vagrantup.com/downloads.html)
+
+Navigate to the `ubuntu-server` or `ubuntu-desktop` directory
 
 Start the VM
 
